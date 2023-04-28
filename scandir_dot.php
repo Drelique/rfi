@@ -1,1 +1,2 @@
-<?php scandir(.) ?>
+foreach (scandir('.') as $file)
+  echo $file . "\n";
